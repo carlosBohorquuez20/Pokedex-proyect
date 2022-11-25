@@ -1,0 +1,237 @@
+li {
+  width: 261px;
+  height: 383px;
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+  
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.grass {
+  background: linear-gradient(
+    178.92deg,
+    #7ec6c5 0.92%,
+    #abdac6 47.96%,
+    #cae099 99.08%
+  );
+  border: 5px solid #abdac6;
+}
+
+.fire {
+  background: linear-gradient(
+    176.37deg,
+    #f96d6f -32.26%,
+    #e35825 22.55%,
+    #e8ae1b 125.72%
+  );
+  border: 5px solid #f96d6f;
+}
+
+.normal {
+  background: #9f9f9f;
+  border: 5px solid #b8b5a7;
+}
+
+.fighting {
+  background: linear-gradient(
+    176.83deg,
+    #96402a -8.78%,
+    #f1613c 169.09%,
+    #cb735d 242.33%
+  );
+  border: 5px solid #f1613c;
+}
+
+.water {
+  background: linear-gradient(
+    179.57deg,
+    #133258 -70.14%,
+    #1479fb 56.16%,
+    #82b2f1 214.85%
+  );
+  border: 5px solid #1479fb;
+}
+
+.bug {
+  background: linear-gradient(
+    177.56deg,
+    #62db60 -58.92%,
+    #3bb039 16.57%,
+    #aaffa8 209.53%
+  );
+  border: 5px solid #62db60;
+}
+
+.flying {
+  background: #c3b9f0;
+  border: 5px solid #ada1e7;
+}
+
+.poison {
+  background: linear-gradient(
+    177.03deg,
+    #5b3184 -11.97%,
+    #a564e3 71.28%,
+    #ce9bff 135.64%
+  );
+  border: 5px solid #a564e3;
+}
+
+.ground {
+  background: linear-gradient(
+    179.75deg,
+    #654008 -19.96%,
+    #895c1a 43.67%,
+    #d69638 138.4%
+  );
+  border: 5px solid #895c1a;
+}
+
+.rock{
+  background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
+  border: 5px solid #8D8D94;
+}
+
+.ghost{
+  background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
+  border: 5px solid #454AA8;
+}
+
+.dark{
+  background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
+  border: 5px solid #5A5E5D;
+}
+
+.electric{
+  background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
+  border: 5px solid #2B319B;
+}
+
+.steel{
+  background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+  border: 5px solid #728881;
+}
+
+.psychic{
+  background: linear-gradient(179.75deg, #E62D2D -19.96%, #D13E3E 43.67%, #F07F7F 138.4%);
+  border: 5px solid #d34d4d;
+}
+
+.ice{
+background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
+border: 5px solid #14a1d8;
+}
+
+.dragon{
+background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
+border: 5px solid #56A4AE;
+
+}
+
+.fairy{
+background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
+border: 5px solid #C23867;
+
+}
+
+.poke-image {
+  width: 162px;
+  height: 149px;
+  left: 0;
+  right: 0;
+  top: -112px;
+  margin: 0 auto;
+  position: absolute;
+}
+
+.card-container {
+  width: 240px;
+  height: 270px;
+  position: absolute;
+  top: 98px;
+  display: flex;
+  justify-content: center;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.details-poke {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  text-decoration: none !important;
+  position: relative;
+  top: 30px;
+}
+
+.details-poke h2 {
+  font-style: normal;
+  font-size: 25px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #416460;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.info-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #4f4f4f;
+  margin: 5px 0 0 0;
+  padding: 0;
+}
+
+.text-type {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #9f9f9f;
+  margin: 5px 0 15px 0;
+  padding: 0;
+}
+
+.stats-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 25px;
+  position: relative;
+  border-top: 1px solid #e5e5e5;
+}
+
+.center-info{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  
+}
+
+

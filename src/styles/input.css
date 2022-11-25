@@ -1,0 +1,143 @@
+.home-page {
+  width: 100%;
+  height: 100vh;
+}
+
+.home-container {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.home-container span {
+  font-size: 40px;
+  color: #fff;
+}
+
+.doc-oak {
+  width: 250px;
+  height: 550px;
+  position: absolute;
+  top: -200px;
+  left: 500px;
+}
+
+.home-intro {
+  position: relative;
+}
+
+.home-intro h2 {
+  font-size: 60px;
+  color: #fff;
+}
+.pokedex-title {
+  width: 650px;
+  height: 150px;
+}
+
+.input-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-button input {
+  width: 500px;
+  height: 50px;
+  outline: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9) !important;
+  font-size: 25px;
+}
+
+.input-button input:hover {
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.8);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.input-button button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.input-button button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+}
+
+.pokebola-top {
+  width: 100%;
+  height: 200px;
+  background: black;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.pokebola-top::before {
+  content: "";
+  width: 100%;
+  height: 80px;
+  background: #ff1c1c;
+  position: absolute;
+}
+
+.poke-middle {
+  position: relative;
+}
+
+.poke-middle::before {
+  content: "";
+  width: 150px;
+  height: 150px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poke-middle-white {
+  width: 110px;
+  height: 110px;
+  background: #fff;
+  top: 110px;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.poke-middle-white::before {
+  content: "";
+  width: 85px;
+  height: 85px;
+  background: black;
+  top: 0px;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+}

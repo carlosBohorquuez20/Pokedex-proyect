@@ -1,0 +1,200 @@
+.poke-char {
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.pokebola-top-characters {
+  width: 100%;
+  height: 50px;
+  background: black;
+  position: relative;
+}
+
+.pokebola-top-characters::before {
+  content: "";
+  width: 100%;
+  height: 70px;
+  background: #ff1c1c;
+  position: absolute;
+}
+
+.pokebola-top-characters img {
+  width: 431px;
+  height: 76px;
+  position: absolute;
+  left: 133px;
+  top: 17px;
+}
+
+.poke-middle-characters {
+  position: relative;
+}
+
+.poke-middle-characters::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 20px;
+  left: auto;
+  right: 200px;
+}
+
+.poke-middle-white-characters {
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 29px;
+  left: auto;
+  right: 210px;
+}
+
+.poke-middle-white-characters::before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  background: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 5px;
+  left: auto;
+  right: 5px;
+}
+
+.top-text {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0 35px 0 35px;
+  padding-top: 20px;
+}
+
+.top-text h2 {
+  color: white;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.user-color {
+  color: black;
+}
+
+.container-input {
+  width: 96%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  left: 37px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.container-input input {
+  width: 666.02px;
+  height: 68px;
+  background: #ffffff;
+  outline: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.9) !important;
+  font-size: 25px;
+}
+
+.container-input input:hover {
+  outline: none;
+  border-color: rgba(234, 76, 137, 0.8);
+  background-color: #fff;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+}
+
+.container-input button {
+  width: 210.48px;
+  height: 68px;
+  background: #d93f3f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 25px;
+}
+
+.container-input button:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: black;
+}
+
+select {
+  width: 775px;
+  height: 68px;
+  font-size: 25px;
+  margin-left: 20px;
+  background: #ffffff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.list-poke {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.pagination {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(188,120,236,1);
+  gap: 20px;
+  font-size: 24px;
+  padding: 20px;
+ 
+}
+
+.pagination button {
+  width: 50px;
+  height: 50px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.pagination button:hover {
+  width: 50px;
+  height: 50px;
+  background: #4edfa5;
+}
+
+.active {
+  width: 50px;
+  height: 50px;
+  background: rgb(109, 177, 149)!important;
+  border-radius: 6px;
+  color: white;
+}
+
+.icon-config{
+  position: absolute;
+  top: 850px;
+  right: 120px;
+  z-index: 10;
+  cursor: pointer;
+ }
+ 
+ .icon-config i{
+  font-size: 50px;
+  color: #30cfd0;
+  text-shadow:  1px 5px 2px black;
+ }
