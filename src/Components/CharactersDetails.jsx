@@ -31,7 +31,7 @@ const CharactersDetails = () => {
         </div>
         <img src={pokedex} alt="pokedex" />
       </div>
-      <button onClick={backPage} className="row-back"><i class="fa-solid fa-arrow-left"></i></button>
+      <button onClick={backPage} className="row-details"><i class="fa-solid fa-arrow-left"></i></button>
       <div className="pokemon-details">
         <div className="spells-poke">
           <div

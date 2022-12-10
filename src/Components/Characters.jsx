@@ -79,6 +79,9 @@ console.log(item)
           <span className="user-color"> Welcome {userName},</span> here you can
           find your favorite pokemon
         </h2>
+        <div className="icon-config" onClick={configuration}>
+          <i className="fa-solid fa-gear"></i>
+        </div>
       </div>
       <div className="container-input">
         <input
@@ -116,9 +119,7 @@ console.log(item)
             {page}
           </button>
         ))}
-        <div className="icon-config" onClick={configuration}>
-          <i className="fa-solid fa-gear"></i>
-        </div>
+       
       </div>
       <div className="pokebola-top">
         <div className="poke-middle">

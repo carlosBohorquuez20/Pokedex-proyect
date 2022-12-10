@@ -10,35 +10,26 @@ import ReactSwitch from "react-switch";
 const Config = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
-  
+
   const backPage = () => {
     navigate("/characters");
   };
-  const [theme, setTheme] = useState("dark");
-
-  const toggleTheme = () => {
-    setTheme((curr) => (curr === "light" ? "dark" : "light"));
-  };
   return (
     <div className="page-config">
-      <button onClick={backPage} className="row-back"><i class="fa-solid fa-arrow-left"></i></button>
+      <button onClick={backPage} className="row-back">
+        <i class="fa-solid fa-arrow-left"></i>
+      </button>
       <h2>Settings</h2>
-      <div className="theme">
-      <div className="switch">
-          <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-        </div>
-      </div>
       <div className="items-page">
         <p>Items per page</p>
-          <div className="buttons-config">
-            <button onClick={() =>  dispatch(items(4))}>4</button>
-            <button onClick={() =>  dispatch(items(6))}>6</button>
-            <button onClick={() =>  dispatch(items(8))}>8</button>
-            <button onClick={() =>  dispatch(items(12))}>12</button>
-            <button onClick={() =>  dispatch(items(16))}>16</button>
-            <button onClick={() =>  dispatch(items(20))}>20</button>
-          </div>
+        <div className="buttons-config">
+          <button onClick={() => dispatch(items(4))}>4</button>
+          <button onClick={() => dispatch(items(6))}>6</button>
+          <button onClick={() => dispatch(items(8))}>8</button>
+          <button onClick={() => dispatch(items(12))}>12</button>
+          <button onClick={() => dispatch(items(16))}>16</button>
+          <button onClick={() => dispatch(items(20))}>20</button>
+        </div>
       </div>
     </div>
   );

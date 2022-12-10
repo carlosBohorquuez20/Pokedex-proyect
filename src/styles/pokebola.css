@@ -1,26 +1,26 @@
-html{
+html {
   font-size: 16px;
 }
 
-.pokebola{
+.pokebola {
   width: 10rem;
   height: 10rem;
-  background: #FFF;
+  background: #fff;
   border-radius: 50%;
   position: relative;
 }
 
-.pokebola::before{
+.pokebola::before {
   content: "";
   width: 10rem;
   height: 5rem;
-  background: #FF1C1C;
+  background: #ff1c1c;
   border-radius: 5rem 5rem 0 0;
   left: 0;
   position: absolute;
 }
 
-.middle-pokebola{
+.middle-pokebola {
   width: 10rem;
   height: 0.5rem;
   background: #333;
@@ -28,7 +28,7 @@ html{
   position: absolute;
 }
 
-.middle-pokebola::before{
+.middle-pokebola::before {
   content: "";
   width: 3rem;
   height: 3rem;
@@ -38,10 +38,9 @@ html{
   position: absolute;
   margin-top: -1.1rem;
   margin-left: -1.15rem;
-
 }
 
-.point-red::before{
+.point-red::before {
   content: "";
   width: 3rem;
   height: 3rem;
@@ -55,20 +54,20 @@ html{
   animation: twinkle 0.7s infinite alternate;
 }
 
-@keyframes twinkle{
-  0%{
-    opacity: .0.8;
+@keyframes twinkle {
+  0% {
+    opacity: 0.8;
   }
-  100%{
+  100% {
     opacity: 0;
   }
 }
 
-.middle-pokebola::after{
+.middle-pokebola::after {
   content: "";
   width: 1.8rem;
   height: 1.8rem;
-  background: #FFF;
+  background: #fff;
   border-radius: 50%;
   margin-top: -0.5rem;
   margin-left: 4.1rem;

@@ -3,9 +3,16 @@
  font-family: 'Roboto', sans-serif;
 }
 
-body{
+html{
+  width: 100%;
   margin: 0;
   padding: 0;
-  background: #854ec9;
+}
+
+body{
+ 
+  margin: 0;
+  padding: 0;
+  background: #513460;
 }
 

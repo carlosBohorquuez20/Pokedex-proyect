@@ -20,6 +20,7 @@ const InputName = () => {
   };
   return (
     <div className="home-page">
+      <div className="home-box">
       <div className="home-container">
         <img src={pokedex} alt="pokedex" className="pokedex-title" />
         <div className="home-intro">
@@ -27,7 +28,7 @@ const InputName = () => {
           <img src={docOak1} alt="doc oak" className="doc-oak" />
         </div>
         <Typewriter
-          className="tex-intro"
+          className="text-intro"
           options={{
             autoStart: true,
             loop: true,
@@ -47,6 +48,8 @@ const InputName = () => {
             I'M READY
           </button>
         </div>
+      </div>
+
       </div>
       <div className="pokebola-top">
         <div className="poke-middle">

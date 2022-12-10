@@ -8,10 +8,9 @@ li {
   align-items: center;
   border-radius: 5px;
   position: relative;
-  
 }
 
-a{
+a {
   text-decoration: none;
   color: black;
 }
@@ -95,51 +94,94 @@ a{
   border: 5px solid #895c1a;
 }
 
-.rock{
-  background: linear-gradient(177.03deg, #7E7E7E -11.97%, #8D8D94 57.49%, #D3D3D3 135.64%);
-  border: 5px solid #8D8D94;
+.rock {
+  background: linear-gradient(
+    177.03deg,
+    #7e7e7e -11.97%,
+    #8d8d94 57.49%,
+    #d3d3d3 135.64%
+  );
+  border: 5px solid #8d8d94;
 }
 
-.ghost{
-  background: linear-gradient(177.03deg, #323569 -11.97%, #454AA8 57.49%, #787DDA 135.64%);
-  border: 5px solid #454AA8;
+.ghost {
+  background: linear-gradient(
+    177.03deg,
+    #323569 -11.97%,
+    #454aa8 57.49%,
+    #787dda 135.64%
+  );
+  border: 5px solid #454aa8;
 }
 
-.dark{
-  background: linear-gradient(177.03deg, #030706 -11.97%, #0D1211 57.49%, #5A5E5D 135.64%);
-  border: 5px solid #5A5E5D;
+.dark {
+  background: linear-gradient(
+    177.03deg,
+    #030706 -11.97%,
+    #0d1211 57.49%,
+    #5a5e5d 135.64%
+  );
+  border: 5px solid #5a5e5d;
 }
 
-.electric{
-  background: linear-gradient(179.75deg, #0C1395 -19.96%, #2B319B 43.67%, #7075D9 138.4%);
-  border: 5px solid #2B319B;
+.electric {
+  background: linear-gradient(
+    179.75deg,
+    #0c1395 -19.96%,
+    #2b319b 43.67%,
+    #7075d9 138.4%
+  );
+  border: 5px solid #2b319b;
 }
 
-.steel{
-  background: linear-gradient(179.75deg, #5E736C -19.96%, #728881 43.67%, #A8A8A8 138.4%);
+.steel {
+  background: linear-gradient(
+    179.75deg,
+    #5e736c -19.96%,
+    #728881 43.67%,
+    #a8a8a8 138.4%
+  );
   border: 5px solid #728881;
 }
 
-.psychic{
-  background: linear-gradient(179.75deg, #E62D2D -19.96%, #D13E3E 43.67%, #F07F7F 138.4%);
+.psychic {
+  background: linear-gradient(
+    179.75deg,
+    #e62d2d -19.96%,
+    #d13e3e 43.67%,
+    #f07f7f 138.4%
+  );
   border: 5px solid #d34d4d;
 }
 
-.ice{
-background: linear-gradient(177.03deg, #6FBEDF -11.97%, #64CBF5 47.77%, #BDEBFE 136.72%);
-border: 5px solid #14a1d8;
+.ice {
+  background: linear-gradient(
+    177.03deg,
+    #6fbedf -11.97%,
+    #64cbf5 47.77%,
+    #bdebfe 136.72%
+  );
+  border: 5px solid #14a1d8;
 }
 
-.dragon{
-background: linear-gradient(179.75deg, #478A93 -19.96%, #56A4AE 43.67%, #A2BEC1 138.4%);
-border: 5px solid #56A4AE;
-
+.dragon {
+  background: linear-gradient(
+    179.75deg,
+    #478a93 -19.96%,
+    #56a4ae 43.67%,
+    #a2bec1 138.4%
+  );
+  border: 5px solid #56a4ae;
 }
 
-.fairy{
-background: linear-gradient(179.75deg, #971B45 -19.96%, #C23867 43.67%, #CD7D98 138.4%);
-border: 5px solid #C23867;
-
+.fairy {
+  background: linear-gradient(
+    179.75deg,
+    #971b45 -19.96%,
+    #c23867 43.67%,
+    #cd7d98 138.4%
+  );
+  border: 5px solid #c23867;
 }
 
 .poke-image {
@@ -225,13 +267,10 @@ border: 5px solid #C23867;
   border-top: 1px solid #e5e5e5;
 }
 
-.center-info{
+.center-info {
   width: 100px;
   height: 50px;
   text-align: center;
   margin: 0;
   padding: 0;
-  
 }
-
-
