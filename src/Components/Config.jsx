@@ -23,12 +23,6 @@ const Config = () => {
     <div className="page-config">
       <button onClick={backPage} className="row-back"><i class="fa-solid fa-arrow-left"></i></button>
       <h2>Settings</h2>
-      <div className="theme">
-      <div className="switch">
-          <label> {theme === "light" ? "Light Mode" : "Dark Mode"}</label>
-          <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
-        </div>
-      </div>
       <div className="items-page">
         <p>Items per page</p>
           <div className="buttons-config">
